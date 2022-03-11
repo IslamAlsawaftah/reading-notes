@@ -18,7 +18,7 @@
 
 ## *Code 401* - **Advanced Software Development**
 ***Advanced Software Development in ASP.NET Core***
-### prework 
+### prework reading
 | Title      | Link |
 | ----------- | ----------- |
 | Learn SQL      | https://landing.chartio.com/download-learn-sql       |
@@ -26,4 +26,4 @@
 |Command Line | https://ryanstutorials.net/linuxtutorial/ |
 |Read About Mindsets| https://hamre-erik.medium.com/deliberate-practice-the-fastest-way-to-improve-your-skills-c98c32521dee|
 
-
+[Learn SQL](sql.md)
