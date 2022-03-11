@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate,
-future: true
+future: true,
+encoding: UTF-8
+
