@@ -27,3 +27,5 @@
 |Read About Mindsets| https://hamre-erik.medium.com/deliberate-practice-the-fastest-way-to-improve-your-skills-c98c32521dee|
 
 [Learn SQL](sql.md)
+
+[Learn Command Line](cmd.md)
