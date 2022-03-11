@@ -39,4 +39,5 @@ Escape Characters : escape (or nullify) the special meaning of the next characte
 - rm Remove - ie. Delete a file.
 - No undo The Linux command line does not have an undo feature. Perform destructive actions carefully.
 - Command line options Most commands have many useful command line options. Make sure you skim the man page for new commands so you are familiar with what they can do and what is available.
+
 [Cheatsheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
