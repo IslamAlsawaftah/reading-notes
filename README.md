@@ -30,3 +30,6 @@
 
 [Learn Command Line](cmd.md)
 
+[Mindset](mindset.md)
+
+
