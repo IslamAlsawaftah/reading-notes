@@ -47,3 +47,11 @@ public class ProcessFile
     }
 }
 ```
+### some of exceptions:
+- AccessViolationException: It is thrown when try to read or write protected memory.
+- AggregateException: Represents one or more errors that occur during application execution.
+- AppDomainUnloadedException: It is thrown when try to access an unloaded application domain.
+- ApplicationException: It is base class for application-defined exceptions.
+- ArgumentException: It is thrown when invalid argument provided to a method.
+- ArgumentNullException: It is thrown when a method requires argument but no argument is provided.
+- ArgumentOutOfRangeException: It is thrown when value of an argument is outside the allowable range.
