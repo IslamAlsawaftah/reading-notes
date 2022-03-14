@@ -1,6 +1,6 @@
-## Deliberate Practice — The Fastest Way to Improve Your Skills
+## Deliberate Practice The Fastest Way to Improve Your Skills
 ##### Deliberate practice is the most effective method to rapidly improve any skill, and consists of intense, structured practice on essential aspects of the task being mastered.
-The activities are designed for the sole purpose of effectively improving specific aspects of an individual’s performance.
+The activities are designed for the sole purpose of effectively improving specific aspects of an individuals performance.
 
 ##### you have to practice well.
 
