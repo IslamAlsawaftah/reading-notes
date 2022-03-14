@@ -32,4 +32,5 @@
 
 [Mindset](mindset.md)
 
+[Debugging](debugg.md)
 
