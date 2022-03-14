@@ -20,11 +20,11 @@
 ***Advanced Software Development in ASP.NET Core***
 ### prework reading
 | Title      | Link |
-| ----------- | ----------- |
+| :-----------: | :-----------: |
 | Learn SQL      | https://landing.chartio.com/download-learn-sql       |
 | Data Structures and Algorithms |         |
-|Command Line | https://ryanstutorials.net/linuxtutorial/ |
-|Read About Mindsets| https://hamre-erik.medium.com/deliberate-practice-the-fastest-way-to-improve-your-skills-c98c32521dee|
+| Command Line | https://ryanstutorials.net/linuxtutorial/ |
+| Read About Mindsets| https://hamre-erik.medium.com/deliberate-practice-the-fastest-way-to-improve-your-skills-c98c32521dee |
 
 [Learn SQL](sql.md)
 
