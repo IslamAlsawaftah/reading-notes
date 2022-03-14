@@ -1,7 +1,7 @@
 # **Select**
 ### used to retrieve data from a SQL database
 #### Select query for a specific columns
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable;
 
 #### Select query for all columns
@@ -12,32 +12,32 @@ FROM mytable;
 ### Where Clause: filter certain results from being returned
 
 #### Select query with constraints
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable
 WHERE condition
     AND/OR another_condition
-    AND/OR …;
+    AND/OR;
 
 #### complex clauses can be constructed by below operators:
-= , != or <> , < , <= , > , >= , BETWEEN … AND … , NOT BETWEEN … AND …	, IN (…) , NOT IN (…) , LIKE , NOT LIKE , % , _
+= , != or <> , < , <= , > , >= , BETWEEN AND , NOT BETWEEN AND	, IN () , NOT IN () , LIKE , NOT LIKE , % , _
 
 # **Filtering and sorting Query results**
 ### DISTINCT: discard rows that have a duplicate column value
 Select query with unique results
-SELECT DISTINCT column, another_column, …
+SELECT DISTINCT column, another_column,
 FROM mytable
 WHERE condition(s);
 
 ### ORDER BY: a way to sort your results by a given column in ascending or descending order
 Select query with ordered results
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable
 WHERE condition(s)
 ORDER BY column ASC/DESC;
 
 ### Limiting results to a subset: LIMIT will reduce the number of rows to return, and the optional OFFSET will specify where to begin counting the number rows from.
 ##### Select query with limited rows:
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable
 WHERE condition(s)
 ORDER BY column ASC/DESC
@@ -46,12 +46,12 @@ LIMIT num_limit OFFSET num_offset;
 # **Multi-table queries with JOIN**
 ### Join: we can combine row data across two separate tables using this unique key.
 ##### Select query with INNER JOIN on multiple tables
-SELECT column, another_table_column, …
+SELECT column, another_table_column,
 FROM mytable
 INNER JOIN another_table 
     ON mytable.id = another_table.id
 WHERE condition(s)
-ORDER BY column, … ASC/DESC
+ORDER BY column, â€¦ ASC/DESC
 LIMIT num_limit OFFSET num_offset;
 
 ##### INNER JOIN: is a process that matches rows from the first table and the second table which have the same key (as defined by the ON constraint) to create a result row with the combined columns from both tables.
@@ -60,9 +60,9 @@ LIMIT num_limit OFFSET num_offset;
 ### INSERT:  declares which table to write into, the columns of data that we are filling, and one or more rows of data to insert. In general, each row of data you insert should contain values for every corresponding column in the table. You can insert multiple rows at a time by just listing them sequentially.
 #### Insert statement with values for all columns
 INSERT INTO mytable
-VALUES (value_or_expr, another_value_or_expr, …),
-       (value_or_expr_2, another_value_or_expr_2, …),
-       …;
+VALUES (value_or_expr, another_value_or_expr, ),
+       (value_or_expr_2, another_value_or_expr_2, ),
+       ;
 
 # **Updating rows**
 
@@ -71,7 +71,7 @@ VALUES (value_or_expr, another_value_or_expr, …),
 UPDATE mytable
 SET column = value_or_expr, 
     other_column = another_value_or_expr, 
-    …
+   
 WHERE condition;
 
 # **Deleting rows**
@@ -88,7 +88,7 @@ WHERE condition;
 CREATE TABLE IF NOT EXISTS mytable (
     column DataType TableConstraint DEFAULT default_value,
     another_column DataType TableConstraint DEFAULT default_value,
-    …
+   
 );
 
 # **Altering tables**
