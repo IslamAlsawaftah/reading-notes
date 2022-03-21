@@ -1,6 +1,6 @@
 ### Classes & Objects
 
-is a reference type,blueprint variable contains the value null until create an instance of the class using new operator.
+class: is a reference type,blueprint variable contains the value null until create an instance of the class using new operator.
 declare object : MyClass mc = new MyClass();
 ````
 Customer object3 = new Customer();
