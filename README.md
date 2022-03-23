@@ -39,3 +39,5 @@
 [File and Stream I/O](fileandstreamIO.md)
 
 [Classes](classes.md)
+
+[Linked Lists](LinkedList.md)
