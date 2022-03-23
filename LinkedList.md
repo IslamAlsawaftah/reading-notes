@@ -2,13 +2,13 @@
 
 ### Big O: Analysis of Algorithm Efficiency
 
-### Big O(oh) notation is used to describe the efficiency of an algorithm or function, based on two factors:
+### Big O(oh) notation is used to describe the efficiency of an algorithm or function, based on two factors
 
 1- Running Time: The amount of time a function needs to complete.
 
 2- Memory Space: The amount of memory resources a function uses to store data and instructions.
 
-###  4 Key Areas for analysis:
+###  4 Key Areas for analysis
 
 1- Input Size: refers to the size of the parameter values that are read by the algorithm, takes into account the size of each parameter value as well.
 
@@ -22,9 +22,9 @@ O(1) constant efficiency: no matter what inputs are thrown at our algorithm, it 
 O(log n) Logarithmic Complexity: represents a function that sees a decrease in the rate of complexity growth, the greater our value of n.used among sorted data. As input size grows we can eliminate more values in the input. We are chopping our input in half
 
 
-### Linked Lists: a linear data structure, sequence of Nodes that are connected/linked to each other. on the other hand non-linear data structures, items don’t have to be arranged in order, we traverse the data structure non-sequentially.
+### Linked Lists: a linear data structure, sequence of Nodes that are connected/linked to each other. on the other hand non-linear data structures, items donâ€™t have to be arranged in order, we traverse the data structure non-sequentially.
 
-### Lists Types: 
+### Lists Types
 
 ![](Linked.jpeg)
 
@@ -57,11 +57,3 @@ Adding a Node: O(1)
 Memory management
 
 ![](memorymanagementlinkedlist.jpeg)
-
-
-
-
-
-
-
-
