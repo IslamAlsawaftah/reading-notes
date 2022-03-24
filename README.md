@@ -41,3 +41,5 @@
 [Classes](classes.md)
 
 [Linked Lists](LinkedList.md)
+
+[OOP Principle](oopprinciple.md)
