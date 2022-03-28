@@ -4,7 +4,7 @@ resource: https://www.javatpoint.com/c-sharp-interface#:~:text=Interface%20in%20
 
 ### used to achieve multiple inheritance, and fully abstraction
 
-### Notes about Interface:
+### Notes about Interface
 
 * can't be instantiated directly,cannot contain a constructor,A class or struct can implement multiple interfaces. A class can inherit a base class and also implement one or more interfaces.
 
@@ -16,14 +16,14 @@ resource: https://www.javatpoint.com/c-sharp-interface#:~:text=Interface%20in%20
 
 * To implement multiple interfaces, separate them with a comma
 
-* can’t have private members.
+* canâ€™t have private members.
 
-* defined with the keyword ‘interface‘.
+* defined with the keyword â€˜interfaceâ€˜.
 
-* We can use the reference variable of an interface. For example,
+* We can use the reference variable of an interface. For example
 
 ```
-using System;
+using System
 namespace CsharpInterface {
 
   interface IPolygon {
@@ -54,7 +54,7 @@ namespace CsharpInterface {
 }
 ``` 
 
-### Why And When To Use Interfaces?
+### Why And When To Use Interfaces
 
 1) To achieve security - hide certain details and only show the important details of an object (interface).
 
@@ -62,7 +62,7 @@ namespace CsharpInterface {
 
 resource: https://www.w3schools.com/cs/cs_interface.php
 
-### Syntax for Interface Declaration:
+### Syntax for Interface Declaration
 
 ```
 interface  <interface_name >
@@ -74,7 +74,7 @@ interface  <interface_name >
 }
 ```
 
-### Syntax for Implementing Interface:
+### Syntax for Implementing Interface
 
 ```
 class class_name : interface_name
