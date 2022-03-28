@@ -43,3 +43,5 @@
 [Linked Lists](LinkedList.md)
 
 [OOP Principle](oopprinciple.md)
+
+[Interfaces](Interfaces.md)
