@@ -4,7 +4,7 @@ resource: https://www.javatpoint.com/c-sharp-interface#:~:text=Interface%20in%20
 
 ### used to achieve multiple inheritance, and fully abstraction
 
-### Notes about Interface:
+### Notes about Interface
 
 * can't be instantiated directly,cannot contain a constructor,A class or struct can implement multiple interfaces. A class can inherit a base class and also implement one or more interfaces.
 
@@ -16,19 +16,19 @@ resource: https://www.javatpoint.com/c-sharp-interface#:~:text=Interface%20in%20
 
 * To implement multiple interfaces, separate them with a comma
 
-* can’t have private members.
+* canâ€™t have private members.
 
-* defined with the keyword ‘interface‘.
+* defined with the keyword â€˜interfaceâ€˜.
 
 * We can use the reference variable of an interface. For example,
 
 ```
-using System;
+using System
 namespace CsharpInterface {
 
   interface IPolygon {
     // method without body
-    void calculateArea(int l, int b);
+    void calculateArea(int l, int b)
 
   }
 
@@ -37,8 +37,8 @@ namespace CsharpInterface {
     // implementation of methods inside interface
     public void calculateArea(int l, int b) {
 
-      int area = l * b;
-      Console.WriteLine("Area of Rectangle: " + area);
+      int area = l * b
+      Console.WriteLine("Area of Rectangle: " + area)
     }
   }
 
@@ -46,15 +46,15 @@ namespace CsharpInterface {
     static void Main (string [] args) {
        
       // using reference variable of interface
-      IPolygon r1 = new Rectangle();
+      IPolygon r1 = new Rectangle()
     
-      r1.calculateArea(100, 200);
+      r1.calculateArea(100, 200)
     }
   }
 }
 ``` 
 
-### Why And When To Use Interfaces?
+### Why And When To Use Interfaces
 
 1) To achieve security - hide certain details and only show the important details of an object (interface).
 
@@ -62,7 +62,7 @@ namespace CsharpInterface {
 
 resource: https://www.w3schools.com/cs/cs_interface.php
 
-### Syntax for Interface Declaration:
+### Syntax for Interface Declaration
 
 ```
 interface  <interface_name >
@@ -97,7 +97,7 @@ public class HouseCat : IFeedable
    public string Name { get; set; }
    public HouseCat(string name)
    {
-      Name = name;
+      Name = name
    }
 }
 ```
@@ -112,7 +112,7 @@ public class CatTests
    public void TestHouseCatImplementsEatMethod()
    {
       IFeedable test_cat = new HouseCat("test");
-      Assert.AreEqual("the feedable is eating", test_cat.Eat());
+      Assert.AreEqual("the feedable is eating", test_cat.Eat())
       // This test passes. Don't believe us? Try it yourself!
    }
 }
