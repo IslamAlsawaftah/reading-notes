@@ -45,3 +45,5 @@
 [OOP Principle](oopprinciple.md)
 
 [Interfaces](Interfaces.md)
+
+[Collections](Collections.md)
