@@ -47,3 +47,5 @@
 [Interfaces](Interfaces.md)
 
 [Collections](Collections.md)
+
+[LINQ](LINQ.md)
