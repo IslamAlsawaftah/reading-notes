@@ -11,7 +11,7 @@ Using the MVC pattern for websites, requests are routed to a Controller that is 
 
 ### Model is made up of entity classes and a context object that represents a session with the database. 
 
-EF supports the following model development approaches:
+EF supports the following model development approaches
 
 1- Generate a model from an existing database.
 
@@ -24,16 +24,16 @@ EF supports the following model development approaches:
 ### Saving data Data is created, deleted, and modified in the database using instances of your entity classes.
 
 ### EF O/RM considerations
-While EF Core is good at abstracting many programming details, there are some best practices applicable to any O/RM that help to avoid common pitfalls in production apps:
+While EF Core is good at abstracting many programming details, there are some best practices applicable to any O/RM that help to avoid common pitfalls in production apps
 
 1- Intermediate-level knowledge or higher of the underlying database server is essential to architect, debug, profile, and migrate data in high performance production apps. For example, knowledge of primary and foreign keys, constraints, indexes, normalization, DML and DDL statements, data types, profiling, etc.
 
-2- Functional and integration testing: It's important to replicate the production environment as closely as possible to:
+2- Functional and integration testing: It's important to replicate the production environment as closely as possible to
 
   * Find issues in the app that only show up when using a specific versions or edition of the database server.
   * Catch breaking changes when upgrading EF Core and other dependencies. For example, adding or upgrading frameworks like ASP.NET Core, OData, or AutoMapper. These dependencies can affect EF Core in unexpected ways.
 
-3- Performance and stress testing with representative loads. The naïve usage of some features doesn't scale well. For example, multiple collections Includes, heavy use of lazy loading, conditional queries on non-indexed columns, massive updates and inserts with store-generated values, lack of concurrency handling, large models, inadequate cache policy.
+3- Performance and stress testing with representative loads. The naÃ¯ve usage of some features doesn't scale well. For example, multiple collections Includes, heavy use of lazy loading, conditional queries on non-indexed columns, massive updates and inserts with store-generated values, lack of concurrency handling, large models, inadequate cache policy.
 
 4- Security review: For example, handling of connection strings and other secrets, database permissions for non-deployment operation, input validation for raw SQL, encryption for sensitive data.
 
