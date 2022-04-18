@@ -55,3 +55,5 @@
 [ERDs](ERDs.md)
 
 [Entity Framework and APIs](Entity-Framework.md)
+
+[Dependency injection](Dependency-injection.md)
