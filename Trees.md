@@ -1,4 +1,4 @@
-# Trees :A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value, a list of references to nodes (the “children”)
+# Trees :A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value, a list of references to nodes (the â€œchildrenâ€)
 
 1- Node - A Tree node is a component which may contain its own values, and references to other nodes
 
@@ -18,13 +18,13 @@
 
 ![](tree.png)
 
-#Traversals
+# Traversals
 
 ### Depth First: is a method for exploring a tree or graph. In a DFS, you go as deep as possible down one path before backing up and trying a different one
 
 #### use the call stack via recursion
 
-#### methods for depth first traversal:
+#### methods for depth first traversal
 
 1- Pre-order: root >> left >> right
 
