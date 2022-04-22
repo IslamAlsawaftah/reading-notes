@@ -4,9 +4,9 @@
 
 The biggest advantage of using DTOs is decoupling clients from your internal data structures,transport data from one layer of an application to another layer.
 
-### Why use Data Transfer Objects (DTOs)?
+### Why use Data Transfer Objects (DTOs)
 
-1- A DTO is a great choice when you would like to pass a lightweight object across the wire ó especially when youíre passing your object via a medium that is bandwidth-constrained.
+1- A DTO is a great choice when you would like to pass a lightweight object across the wire ‚Äî especially when you‚Äôre passing your object via a medium that is bandwidth-constrained.
 
 2- to abstract the domain objects of your application from the user interface or the presentation layer.
 
@@ -14,18 +14,18 @@ The biggest advantage of using DTOs is decoupling clients from your internal dat
 
 4- Separate the service layer from the database layer
 
-5- Hide specific properties that clients donít need to receive
+5- Hide specific properties that clients don‚Äôt need to receive
 
 6- Omit properties to reduce the payload size
 
 7- Manipulate nested objects to make them more convenient for clients
 
-8- Avoid ìoverpostî vulnerabilities
+8- Avoid ‚Äúoverpost‚Äù vulnerabilities
 
 9- Serialization & lazy load problems
 
 
-### There are several ways in which you can implement immutable DTOs in C#
+### There are several ways in which you can implement immutable DTOs
 
 1- You could use a ReadOnlyCollection or the thread-safe immutable collection types present in the System.Collections.Immutable namespace. 
 
@@ -69,17 +69,3 @@ class CustomerDTO
 ```
 
 resource: https://www.codeproject.com/Articles/1050468/Data-Transfer-Object-Design-Pattern-in-Csharp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
