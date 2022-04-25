@@ -2,7 +2,7 @@
 
 (OpenAPI) is a language-agnostic specification for describing REST APIs. It allows both computers and humans to understand the capabilities of a REST API without direct access to the source code.
 
-### Goals:
+### Goals
 
 1- Minimize the amount of work needed to connect decoupled services.
 
@@ -40,7 +40,7 @@ resource: https://www.tutorialspoint.com/asp.net_mvc/asp.net_mvc_unit_testing.ht
 
 #### Controllers
 
-play a central role in any ASP.NET Core MVC app. As such, you should have confidence that controllers behave as intended. Automated tests can detect errors before the app is deployed to a production environment. It’s important to avoid placing unnecessary responsibilities within your controllers and ensure your tests focus only on controller responsibilities.
+play a central role in any ASP.NET Core MVC app. As such, you should have confidence that controllers behave as intended. Automated tests can detect errors before the app is deployed to a production environment. Itâ€™s important to avoid placing unnecessary responsibilities within your controllers and ensure your tests focus only on controller responsibilities.
 
 #### Unit tests
 
