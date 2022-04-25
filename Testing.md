@@ -34,7 +34,7 @@ demonstrate how to  write unit tests for the controllers in ASP.NET MVC applicat
 
 take the smallest piece of testable software in the application and determine whether it behaves exactly as you expect.Each unit is tested separately before integrating them into modules to test the interfaces between modules.
 
-resource: https://www.tutorialspoint.com/asp.net_mvc/asp.net_mvc_unit_testing.htm
+resource: https://www.tutorialspoint.com/asp.net_mvc/asp.net_mvc_unit_testing.htm.
 
 ### Unit test controller
 
@@ -45,6 +45,3 @@ play a central role in any ASP.NET Core MVC app. As such, you should have confid
 #### Unit tests
 
 involve testing a part of an app in isolation from its infrastructure and dependencies. When unit testing controller logic, only the contents of a single action are tested, not the behavior of its dependencies or of the framework itself.. A controller unit test avoids things like filters, routing, or model binding. By focusing on testing just one thing, unit tests are generally simple to write and quick to run. A well-written set of unit tests can be run frequently without much overhead. 
-
-
-
