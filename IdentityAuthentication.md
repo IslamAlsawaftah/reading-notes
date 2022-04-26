@@ -1,4 +1,4 @@
-# ASP.NET Core Identity:
+# ASP.NET Core Identity
 
 1- Is an API that supports user interface (UI) login functionality.
 
@@ -6,7 +6,7 @@
 
 Identity is typically configured using a SQL Server database to store user names, passwords, and profile data. Alternatively, another persistent store can be used, for example, Azure Table Storage
 
-### Microsoft identity platform is:
+### Microsoft identity platform is
 
 1- An evolution of the Azure Active Directory (Azure AD) developer platform.
 
@@ -47,19 +47,19 @@ A Principal represents the actual user. It can contain one or more instances of 
 There are 5 verbs (these can also be thought of as commands or behaviors) that are invoked by the auth system,
 
 1- Authenticate
-Gets the userís information if any exists (e.g. decoding the userís cookie, if one exists)
+Gets the user‚Äôs information if any exists (e.g. decoding the user‚Äôs cookie, if one exists)
 
 2- Challenge
 Requests authentication by the user (e.g. showing a login page)
 
 3- SignIn
-Persists the userís information somewhere (e.g. writes a cookies)
+Persists the user‚Äôs information somewhere (e.g. writes a cookies)
 
 4- SignOut
-Removes the userís persisted information (e.g. deletes the cookies)
+Removes the user‚Äôs persisted information (e.g. deletes the cookies)
 
 5- Forbid
-Denies access to a resource for unauthenticated users or authenticated but unauthorized users (e.g. displaying a ìnot authorizedî page)
+Denies access to a resource for unauthenticated users or authenticated but unauthorized users (e.g. displaying a ‚Äúnot authorized‚Äù page)
 
 
 #### Authentication Handlers
