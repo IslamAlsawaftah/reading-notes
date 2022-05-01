@@ -4,7 +4,7 @@ A Claim is a piece of information about the user. It is consists of a Claim type
 
 ### Adding claims checks
 
-Claim based authorization checks:
+Claim based authorization checks
 
 * Are declarative.
 
@@ -38,9 +38,9 @@ public class ClaimsIdentity: IIdentity
 }
 ```
 
-### JWT to authenticate Servers API’s
+### JWT to authenticate Servers APIâ€™s
 
-What is JWT?
+What is JWT
 
 JSON Web Token (JWT) is a means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS) and/or encrypted using JSON Web Encryption (JWE).
 
@@ -48,7 +48,7 @@ way of encoding JSON object and use that encoded object as access tokens for aut
 
 ![](JWT.png)
 
-Following are some standard claims: 
+Following are some standard claims
 
 1- Issuer (iss) - identifies principal that issued the JWT;
 
@@ -64,7 +64,7 @@ Following are some standard claims:
 
 7- JWT ID (jti) - case sensitive unique identifier of the token even among different issuers.
 
-### Producer and Consumer concept of API’s 
+### Producer and Consumer concept of APIâ€™s 
 
 Producer is the one who gives a service. It will be the provider(Server) of the API(s) which are JWT protected.
 
@@ -78,6 +78,6 @@ Consumer is the one who uses it. It will be the customer(Server/Mobile App/ Web 
 
 2. Prepare the PAYLOAD: Consumer should encode all the data (body or query or params) in the payload of the JWT token (you can choose specific fields that need to be present in the payload of JWT but I would suggest to wrap all the data). We will exact this at producer end to verify that the data is the same in the token payload and the request API.
 
-3. GET the TOKEN: The token should be present in the header with name jwt-token (you can choose your custom name or send it in authorization header after all it’s custom contract)
+3. GET the TOKEN: The token should be present in the header with name jwt-token (you can choose your custom name or send it in authorization header after all itâ€™s custom contract)
 
 4. Idenitify the CONSUMER: We just need one last thing and that is to identify our consumer. This we can do it in either way by setting iss: CONSUMER_NAME standard claim in the payload or by sending another header jwt-consumer: CONSUMER_NAME. We will be using the latter one.
