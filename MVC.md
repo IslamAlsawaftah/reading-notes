@@ -2,13 +2,13 @@
 
 provides developer services for allowing teams to plan work, collaborate on code development, and build and deploy applications. Azure DevOps supports a collaborative culture and set of processes that bring together developers, project managers, and contributors to develop software.
 
-You can use one or more of the following standalone services based on your business needs:
+You can use one or more of the following standalone services based on your business needs
 
-Azure Repos provides Git repositories or Team Foundation Version Control (TFVC) for source control of your code. For more information about Azure Repos, see What is Azure Repos?.
+Azure Repos provides Git repositories or Team Foundation Version Control (TFVC) for source control of your code. For more information about Azure Repos, see What is Azure Repos
 
-Azure Pipelines provides build and release services to support continuous integration and delivery of your applications. For more information about Azure Pipelines, see What is Azure Pipelines?.
+Azure Pipelines provides build and release services to support continuous integration and delivery of your applications. For more information about Azure Pipelines, see What is Azure Pipelines
 
-Azure Boards delivers a suite of Agile tools to support planning and tracking work, code defects, and issues using Kanban and Scrum methods. For more information about Azure Boards, see What is Azure Boards?.
+Azure Boards delivers a suite of Agile tools to support planning and tracking work, code defects, and issues using Kanban and Scrum methods. For more information about Azure Boards, see What is Azure Boards
 
 Azure Test Plans provides several tools to test your apps, including manual/exploratory testing and continuous testing. For more information about Azure Test Plans, see Overview of Azure Test Plans
 
@@ -85,7 +85,7 @@ A personal access token contains your security credentials for Azure DevOps. A P
 
 #### Model layer represent the objects in our Application. Model is also a class which has all the objects and its properties and methods defined in it.
 
-#### View Layer has all the html controls which define the UI of the application. Here in MVC, we don’t have drag and drop option for controls as we don’t use server controls. Instead we use Razor Engine available with Visual Studio by default which helps in rendering the View. Views are files with .cshtml extensions. .cshtml contain both html and server code. And also, using ‘@’, we can access C# code so that in our page which can access server side dynamic data.
+#### View Layer has all the html controls which define the UI of the application. Here in MVC, we donâ€™t have drag and drop option for controls as we donâ€™t use server controls. Instead we use Razor Engine available with Visual Studio by default which helps in rendering the View. Views are files with .cshtml extensions. .cshtml contain both html and server code. And also, using â€˜@â€™, we can access C# code so that in our page which can access server side dynamic data.
 
 #### Controller basically handles the request from user. It is the heart of the MVC application as everyone say. It is responsible to handle the request and return a response to user by loading appropriate View with data from Model. Controller is nothing but a class with a group of methods called actions. And Every action method returns view. A View can be anything like it can be xml or html or JSON etc. Controller maps the incoming user requests to appropriate Controller actions with the help of process called Routing.
 
@@ -104,7 +104,7 @@ Tag Helpers scope is controlled by a combination of @addTagHelper, @removeTagHel
 
 @addTagHelper makes Tag Helpers available
 
-If your project contains an EmailTagHelper with the default namespace (AuthoringTagHelpers.TagHelpers.EmailTagHelper), you can provide the fully qualified name (FQN) of the Tag Helper:
+If your project contains an EmailTagHelper with the default namespace (AuthoringTagHelpers.TagHelpers.EmailTagHelper), you can provide the fully qualified name (FQN) of the Tag Helper
 
 ```
 @using AuthoringTagHelpers
@@ -164,7 +164,7 @@ Tag Helpers attach to HTML elements in Razor views, while HTML Helpers are invok
 
 # Bootstrap
 
-Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+Bootstrap is a powerful, feature-packed frontend toolkit. Build anythingâ€”from prototype to productionâ€”in minutes.
 
 Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global options like gradients and shadows, and write your own CSS with our variables, maps, functions, and mixins.
 
