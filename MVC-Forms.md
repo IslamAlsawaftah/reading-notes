@@ -24,7 +24,7 @@ Views that are specific to a controller are created in the Views/[ControllerName
 
 ### How controllers specify views
 
-use the View helper method to return the ViewResult:
+use the View helper method to return the ViewResult
 
 ```
 public IActionResult About()
@@ -35,14 +35,14 @@ public IActionResult About()
 }
 ```
 
-The View helper method has several overloads. You can optionally specify:
+The View helper method has several overloads. You can optionally specify
 
-An explicit view to return:
+An explicit view to return
 ```
 return View("Orders");
 ```
 
-A model to pass to the view:
+A model to pass to the view
 
 ```
 return View(Orders);
@@ -55,7 +55,7 @@ return View("Orders", Orders);
 ```
 
 Pass data to views
-Pass data to views using several approaches:
+Pass data to views using several approaches
 
 * Strongly typed data: viewmodel
 * Weakly typed data
@@ -91,19 +91,19 @@ Isolate CSS styles to individual pages, views, and components to reduce or avoid
 
 ### Create Form
 
-1. FORMS ñ WEAKLY TYPED
+1. FORMS ‚Äì WEAKLY TYPED
 
-\<form action="form1" method=îpostî>, form1 is Action Method that gets executed when forms sends data to HomeController using post method. In the next chapter, you will learn about post and get method in mvc.
+\<form action="form1" method=‚Äùpost‚Äù>, form1 is Action Method that gets executed when forms sends data to HomeController using post method. In the next chapter, you will learn about post and get method in mvc.
 
-In the \<input type="text" name="txtId" />, the property name=îtxtIdî must be same as parameter name in form 1 action method.
+In the \<input type="text" name="txtId" />, the property name=‚ÄùtxtId‚Äù must be same as parameter name in form 1 action method.
 
-Advantage:
+Advantage
 
 1. It is easy to create a form using Weakly Typed mechanism
 
 2. Mostly used when you need to create a form with one or two input items.
 
-Disadvantage:
+Disadvantage
 
 1. Because, it is not strongly typed so IntelliSense doesn't help you.
 
@@ -124,7 +124,7 @@ Asynchronous AJAX Forms simply post back the data to the controllers and update 
 a. Ajax.BeginForm is used for creating Asynchronous AJAX Forms.
 b. Form3 is an Action method.
 c. Home is a Controller name.
-d. HttpMethod = ìPOSTî denotes that data will be sent to server using POST method.
+d. HttpMethod = ‚ÄúPOST‚Äù denotes that data will be sent to server using POST method.
 e. UpdateTargetId updates the area which will get updated and display output. In my program, \<h4 id="id1" style="color:purple">\</h4> will be updated and display output.
 f. LoadingElementId display the loading image or loading message meanwhile AJAX is posting and retrieving data from models or controllers.
 g. OnSuccess works when task completed successfully.
@@ -132,7 +132,7 @@ h. OnFailure works when task gets failed.
 
 4. PURE HTML FORMS WITH AJAX AND JQUERY
 
- use html elements like \<p>Ö\</p>, \<span>Ö\</span> to send data to controllers. This is pure JQuery and AJAX query.
+ use html elements like \<p>‚Ä¶\</p>, \<span>‚Ä¶\</span> to send data to controllers. This is pure JQuery and AJAX query.
 
 
 
