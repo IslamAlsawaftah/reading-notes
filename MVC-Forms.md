@@ -122,12 +122,19 @@ we send objects (model) instead of sending each item as parameter. It is easy to
 Asynchronous AJAX Forms simply post back the data to the controllers and update the only that part of the page, which has to display output.
 
 a. Ajax.BeginForm is used for creating Asynchronous AJAX Forms.
+
 b. Form3 is an Action method.
+
 c. Home is a Controller name.
+
 d. HttpMethod = “POST” denotes that data will be sent to server using POST method.
+
 e. UpdateTargetId updates the area which will get updated and display output. In my program, \<h4 id="id1" style="color:purple">\</h4> will be updated and display output.
+
 f. LoadingElementId display the loading image or loading message meanwhile AJAX is posting and retrieving data from models or controllers.
+
 g. OnSuccess works when task completed successfully.
+
 h. OnFailure works when task gets failed.
 
 4. PURE HTML FORMS WITH AJAX AND JQUERY
