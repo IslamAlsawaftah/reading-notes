@@ -133,16 +133,3 @@ h. OnFailure works when task gets failed.
 4. PURE HTML FORMS WITH AJAX AND JQUERY
 
  use html elements like \<p>…\</p>, \<span>…\</span> to send data to controllers. This is pure JQuery and AJAX query.
-
-
-
-
-
-
-
-
-
-6. 
-6. 
-6. 
-
