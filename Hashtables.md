@@ -10,7 +10,7 @@
 
 every Node or Bucket has both a key, and a value.
 
-hash code turns a key into an integer. It’s very important that hash codes are deterministic: their output is determined only by their input. Hash codes should never have randomness to them. The same key should always produce the same hash code.
+hash code turns a key into an integer. Itâ€™s very important that hash codes are deterministic: their output is determined only by their input. Hash codes should never have randomness to them. The same key should always produce the same hash code.
 
 ### Creating a Hash: A hashtable  is created from an array
 
@@ -22,7 +22,7 @@ hash code turns a key into an integer. It’s very important that hash codes are d
 
 4- Insert into the array at that index.
 
-Example:
+Example
 ```
 Key = "Cat"
 Value = "Josie"
@@ -40,9 +40,9 @@ Key gets placed in index of 16.
 
 If two keys ever ultimately resolved to the same index, then two calls to .Add(key, val) with different keys would overwrite each other.
 
-Each index in the array is called a “bucket” because it can store multiple key/value pairs.
+Each index in the array is called a â€œbucketâ€ because it can store multiple key/value pairs.
 
-### Hash maps do this to store values:
+### Hash maps do this to store values
 
 accept a key
 
@@ -52,7 +52,7 @@ use modulus to convert the hash into an array index
 
 store the key with the value by appending both to the end of a linked list
 
-### Hash maps do this to read value:
+### Hash maps do this to read value
 
 accept a key
 
@@ -82,13 +82,13 @@ Bucket 6: [{Redmond: 98052} --> {Freemont: 98103} --> {South Lake Union: 98109} 
 
 #### Add()
 
-When adding a new key/value pair to a hashtable:
+When adding a new key/value pair to a hashtable
 
 send the key to the GetHash method.
 
 Once you determine the index of where it should be placed, go to that index
 
-Check if something exists at that index already, if it doesn’t, add it with the key/value pair.
+Check if something exists at that index already, if it doesnâ€™t, add it with the key/value pair.
 
 If something does exist, add the new key/value pair to the data structure within that bucket.
 
