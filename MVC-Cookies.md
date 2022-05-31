@@ -13,7 +13,7 @@ HttpContext.Response.Cookies.Append("user_id", "1");
 
 ### HTTP cookies
 
-An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. The browser may store the cookie and send it back to the same server with later requests. Typically, an HTTP cookie is used to tell if two requests come from the same browser—keeping a user logged in, for example. It remembers stateful information for the stateless HTTP protocol.
+An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to a user's web browser. The browser may store the cookie and send it back to the same server with later requests. Typically, an HTTP cookie is used to tell if two requests come from the same browserâ€”keeping a user logged in, for example. It remembers stateful information for the stateless HTTP protocol.
 
 ### Cookies are mainly used for three purposes
 
@@ -82,30 +82,28 @@ Set-Cookie: mykey=myvalue; SameSite=Strict
 
 ### Cookie prefixes
 
-__Host-
+__Host
 
 If a cookie name has this prefix, it's accepted in a Set-Cookie header only if it's also marked with the Secure attribute, was sent from a secure origin, does not include a Domain attribute, and has the Path attribute set to /. This way, these cookies can be seen as "domain-locked".
 
-__Secure-
+__Secure
 
 If a cookie name has this prefix, it's accepted in a Set-Cookie header only if it's marked with the Secure attribute and was sent from a secure origin. This is weaker than the __Host- prefix.
 
-
-
 ### Automatic cookie removal
 
-There are a few reasons why a cookie might be automatically removed by the browser:
+There are a few reasons why a cookie might be automatically removed by the browser
 
 Session cookies are removed when the session is over (browser is closed).
 
 Persistent cookies are removed when the expiration date and time have been reached.
 
-If the browser’s cookie limit is reached, then cookies will be removed to make room for the most recently created cookie.
+If the browserâ€™s cookie limit is reached, then cookies will be removed to make room for the most recently created cookie.
 
 
 ### Subcookies
 
-Due to the cookie number limit, developers have come up with the idea of subcookies to increase the amount of storage available to them. Subcookies are name-value pairs stored within a cookie value and typically have a format similar to the following:
+Due to the cookie number limit, developers have come up with the idea of subcookies to increase the amount of storage available to them. Subcookies are name-value pairs stored within a cookie value and typically have a format similar to the following
 
 ```
 name=a=b&c=d&e=f&g=h
@@ -118,6 +116,3 @@ Microsoft introduced a new option for cookies in Internet explorer 6 SP1: HTTP-o
 ```
 Set-Cookie: name=Nicholas; HttpOnly
 ```
-
-
-
