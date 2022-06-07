@@ -79,3 +79,5 @@
 [MVC / Cookies](MVC-Cookies.md)
 
 [Azure Blobs](Azure-Blobs.md)
+
+[Razor Pages](RazorPages.md)
