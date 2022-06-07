@@ -52,13 +52,13 @@ The validation attributes specify behavior to enforce on the model properties th
 
 1- The Required and MinimumLength attributes indicate that a property must have a value, but nothing prevents a user from entering white space to satisfy this validation.
 
-2- The RegularExpression attribute is used to limit what characters can be input. In the preceding code, "Genre"
+2- The RegularExpression attribute is used to limit what characters can be input.
 
 Must only use letters.
 
 The first letter is required to be uppercase. White space, numbers, and special characters are not allowed.
 
-3- The RegularExpression "Rating"
+3- The RegularExpression Rating
 
 Requires that the first character be an uppercase letter.
 
@@ -94,7 +94,7 @@ When a Razor class library (RCL) provides isolated styles, the \<link> tag's hre
 
 {PACKAGE ID}: The library's package identifier. The package identifier defaults to the project's assembly name if the package identifier isn't specified in the project file.
 
-Application structure is similar to MVC but there are no folders for controllers and views. The folder called Pages contains all Razor views that in this context are called ìpagesî. 
+Application structure is similar to MVC but there are no folders for controllers and views. The folder called Pages contains all Razor views that in this context are called ‚Äúpages‚Äù. 
 
 
 Pages are always marked with @page directive that tells view engine this is Razor page and not a regular MVC view.
