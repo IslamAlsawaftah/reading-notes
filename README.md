@@ -81,3 +81,5 @@
 [Azure Blobs](Azure-Blobs.md)
 
 [Razor Pages](RazorPages.md)
+
+[View Components](ViewComponents.md)
