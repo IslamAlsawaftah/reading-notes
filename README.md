@@ -85,3 +85,5 @@
 [View Components](ViewComponents.md)
 
 [Sendgrid](Sendgrid.md)
+
+[Payment Processing](Payment-Processing.md)
