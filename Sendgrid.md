@@ -11,8 +11,8 @@ Twilio SendGrid uses Two-factor authentication (2FA) to help protect your accoun
 API Keys authenticate your application, mail client, or website with Twilio SendGrid services. Unlike a username and password, API keys are scoped to provide access only to the services you select. You can also delete and create API keys without impacting your other account credentials. For these reasons, Twilio SendGrid requires you to connect to its services using API keys.
 
 ```
-username: "apikey"
-password: <your-api-key>
+username: apikey
+password: your-api-key
 ```
 
 ### Create an API key
@@ -31,7 +31,7 @@ You can upgrade or downgrade your Twilio SendGrid plan to accommodate your email
 
 ### Upgrade or downgrade your plan
 
-To upgrade or downgrade your plan, select Change plan from the Twilio SendGrid resource detail page. There are two locations where you can select Change plan — selecting Change subscription will allow you to modify your Azure subscription, not your Twilio SendGrid plan.
+To upgrade or downgrade your plan, select Change plan from the Twilio SendGrid resource detail page. There are two locations where you can select Change plan â€” selecting Change subscription will allow you to modify your Azure subscription, not your Twilio SendGrid plan.
 
 ### Unsubscribe from Twilio SendGrid
 
