@@ -34,7 +34,7 @@ the user may simply be transferred to a web page on the Gateway for credit card 
 
 ## sophisticated applications, such as online registration
 
-the user’s credit card and passes the information to the Gateway through a secure channel called an API (Application Programming Interface). Such programs are called third-party applications and are required to meet high security requirements.  One of these is that the credit card information should be passed to the Gateway and not stored on the application server.
+the userâ€™s credit card and passes the information to the Gateway through a secure channel called an API (Application Programming Interface). Such programs are called third-party applications and are required to meet high security requirements.  One of these is that the credit card information should be passed to the Gateway and not stored on the application server.
 
 ### payment through online registration
 
@@ -62,7 +62,7 @@ The Merchant Account will have one or more of these fees
 
 3- Per Transaction fees.  While there may be a fixed transaction fee (usually 25 cents or less), the most important fee is the Percentage Fee, which will typically range from 2.00-3.00% for MasterCard/Visa and 4.00-5.00% for American Express.
 
-4- The Payment Gateway and, possibly, the Internet Merchant account will have this structure:
+4- The Payment Gateway and, possibly, the Internet Merchant account will have this structure
 
 5- One-time setup fee (typically in the $100-200 range)
 
