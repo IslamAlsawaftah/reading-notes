@@ -48,7 +48,9 @@ the user’s credit card and passes the information to the Gateway through a secur
 
 5- The result is passed back to the Gateway and then the application.
 
+### Validation, Refunds, and Settlement
 
+online user will usually not see the specific reasons for the failure, such as a decline. (The reason for this is that too much information makes it easier for hackers to fake credit card transactions.) However, the management side of the Gateway and third-party applications may allow you to find out more specific reasons for the failure.
 
 ### Fees
 
