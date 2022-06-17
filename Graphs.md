@@ -2,9 +2,9 @@
 
 A graph is a non-linear data structure that can be looked at as a collection of vertices (or nodes) potentially connected by line segments named edges.
 
-common terminology used when working with Graphs:
+common terminology used when working with Graphs
 
-Vertex - A vertex, also called a ìnodeî, is a data object that can have zero or more adjacent vertices.
+Vertex - A vertex, also called a ‚Äúnode‚Äù, is a data object that can have zero or more adjacent vertices.
 
 Edge - An edge is a connection between two nodes.
 
@@ -42,7 +42,7 @@ A Cyclic graph is a graph that has cycles. A cycle is defined as a path of a pos
 
 ### Graph Representation
 
-We represent graphs through:
+We represent graphs through
 
 1- Adjacency Matrix
 
@@ -68,7 +68,7 @@ In a depth first traversal, our approach is a bit different than the approach us
 
 ### Real World Uses of Graphs
 
-Graphs are extremely popular when it comes to itís uses. Here are just a few examples of graphs in use:
+Graphs are extremely popular when it comes to it‚Äôs uses. Here are just a few examples of graphs in use:
 
 GPS and Mapping
 
