@@ -7,7 +7,7 @@ The Unity documentation is the Unity User Manual and Unity Scripting API Referen
 
 As we continually improve Unity (that is; the Editor and the engine), we add new features, improve existing features, and sometimes remove old features.
 
-With each Unity release, the Unity documentation changes to reflect this, so make sure you use the correct version of the User Manual and Scripting API Reference to match the version of Unity youíre using.
+With each Unity release, the Unity documentation changes to reflect this, so make sure you use the correct version of the User Manual and Scripting API Reference to match the version of Unity you‚Äôre using.
 
 The version of the documentation which accompanies the current full release of Unity is always available online at docs.unity3d.com.
 
@@ -23,7 +23,7 @@ If you are only interested in finding documentation or information about a speci
 
 Released packages
 
-ìReleasedî packages are packages that have undergone testing with a specific version of Unity, and all other packages released for that version. The package also contains complete and accurate documentation, an updated changelog, and valid licensing.
+‚ÄúReleased‚Äù packages are packages that have undergone testing with a specific version of Unity, and all other packages released for that version. The package also contains complete and accurate documentation, an updated changelog, and valid licensing.
 
 2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.
 
@@ -36,7 +36,7 @@ SpriteShape Runtime & Editor Package contains the tooling and the runtime compon
 
 2D Tilemap Extras is a package that contains extra scripts for use with 2D Tilemap features in Unity. These include custom Tiles and Brushes for the Tilemap feature.
 
-The Adaptive Performance package provides an API to get feedback about the thermal and power state of mobile devices, enabling applications to make performance-relevant adaptions at runtime.
+The Adaptive Performance package provides an API to get feedback about the thermal and power state of mobile devices, enabling applications to make performance relevant adaptions at runtime.
 
 The Addressable Asset System allows the developer to ask for an asset via its address. Once an asset (e.g. a prefab) is marked "addressable", it generates an address which can be called from anywhere. Wherever the asset resides (local or remote), the system will locate it and its dependencies, then return it.
 
@@ -55,7 +55,7 @@ Set up your Unity project.
 Create a 2D game.
 
 Unity helps you simulate physics in your Project to ensure that the objects correctly accelerate and respond to collisions
-, gravity, and various other forces. Unity provides different physics engine implementations which you can use according to your Project needs: 3D, 2D, object-oriented, or data-oriented. This page provides the links to their documentation.
+, gravity, and various other forces. Unity provides different physics engine implementations which you can use according to your Project needs: 3D, 2D, object oriented, or data-oriented. This page provides the links to their documentation.
 
 ![](PhysicsIntroPic.jpg)
 
