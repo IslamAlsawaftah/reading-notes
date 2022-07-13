@@ -2,9 +2,9 @@
 
 First contributions is a hands-on tutorial that walks you through contributions workflow on GitHub. When you complete the tutorial, you have made a contribution to the same project.
 
-https://up-for-grabs.net is a site that aggregates (rolls up and makes easy to explore) projects that actively want help. They label those projects with things like ìup-for-grabsî, ìjump-inî or ìhelp wanted.
+https://up-for-grabs.net is a site that aggregates (rolls up and makes easy to explore) projects that actively want help. They label those projects with things like ‚Äúup-for-grabs‚Äù, ‚Äújump-in‚Äù or help wanted.
 
-goodfirstissues.com is a site that aggregates the latest issues with the label ìGood First Issueî, which is a GitHub feature for finding easy issues to tackle (see here). goodfirstissues.com empowers first-time contributors to find and select issues that they want to solve.
+goodfirstissues.com is a site that aggregates the latest issues with the label ‚ÄúGood First Issue‚Äù, which is a GitHub feature for finding easy issues to tackle see here goodfirstissues.com empowers first-time contributors to find and select issues that they want to solve.
 
 goodfirstissue.dev curates easy pickings from popular open-source projects, and helps you make your first contribution to open-source.
 
@@ -12,9 +12,9 @@ CodeTriage helps you subscribe to your favorite open-source projects and get a n
 
 Read blog posts and guides on how to contribute to an open source project, then pick one
 
-If youíre just getting started with tech and are planning to become a social developer, weíve made a documentary training movie for you! Get Involved in Tech walks you through setting up your GitHub account, exploring StackOverflow, setting up a blog and starting to tweet
+If you‚Äôre just getting started with tech and are planning to become a social developer, we‚Äôve made a documentary training movie for you! Get Involved in Tech walks you through setting up your GitHub account, exploring StackOverflow, setting up a blog and starting to tweet
 
-Wondering what someone elseís first contribution was? You can easily find out any GitHub usernames ìFirst Pull Requestî here! (I think youíll find that most peopleís first PRs were relatively small like Kentís).
+Wondering what someone else‚Äôs first contribution was? You can easily find out any GitHub usernames ‚ÄúFirst Pull Request‚Äù here! (I think you‚Äôll find that most people‚Äôs first PRs were relatively small like Kent‚Äôs.
 
 We think that open source projects should value civility, kindness, and patience with new developers. We encourage you to explore projects that have a published Code of Conduct.
 
@@ -37,12 +37,3 @@ For many outside of the IT world, the concept of contributing to open-source sof
 Multiple ways to get involved
 
 Call for Code has expanded into a broader, always-on, tech for good platform, providing additional opportunities to get involved beyond the yearly Global Challenge. Discover open source projects, including Call for Code for Racial Justice, where you can contribute to make a lasting difference.
-
-
-
-
-
-
-
-
-
