@@ -4,7 +4,7 @@ The Code as a whole is concerned with how fundamental ethical principles apply t
 
 1. GENERAL ETHICAL PRINCIPLES.
 
-A computing professional should...
+A computing professional should
 
 1.1 Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing.
 
@@ -82,11 +82,11 @@ Leadership may either be a formal designation or arise informally from influence
 
 3.1 Ensure that the public good is the central concern during all professional computing work.
 
-People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing. The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal. Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.
+PeopleÂ—including users, customers, colleagues, and others affected directly or indirectlyÂ—should always be the central concern in computing. The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal. Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.
 
 3.2 Articulate, encourage acceptance of, and evaluate fulfillment of social responsibilities by members of the organization or group.
 
-Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities. Organizations—through procedures and attitudes oriented toward quality, transparency, and the welfare of society—reduce harm to the public and raise awareness of the influence of technology in our lives. Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.
+Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities. OrganizationsÂ—through procedures and attitudes oriented toward quality, transparency, and the welfare of societyÂ—reduce harm to the public and raise awareness of the influence of technology in our lives. Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.
 
 3.3 Manage personnel and resources to enhance the quality of working life.
 
@@ -98,7 +98,7 @@ Leaders should pursue clearly defined organizational policies that are consisten
 
 3.5 Create opportunities for members of the organization or group to grow as professionals.
 
-Educational opportunities are essential for all organization and group members. Leaders should ensure that opportunities are available to computing professionals to help them improve their knowledge and skills in professionalism, in the practice of ethics, and in their technical specialties. These opportunities should include experiences that familiarize computing professionals with the consequences and limitations of particular types of systems. Computing professionals should be fully aware of the dangers of oversimplified approaches, the improbability of anticipating every possible operating condition, the inevitability of software errors, the interactions of systems and their contexts, and other issues related to the complexity of their profession—and thus be confident in taking on responsibilities for the work that they do.
+Educational opportunities are essential for all organization and group members. Leaders should ensure that opportunities are available to computing professionals to help them improve their knowledge and skills in professionalism, in the practice of ethics, and in their technical specialties. These opportunities should include experiences that familiarize computing professionals with the consequences and limitations of particular types of systems. Computing professionals should be fully aware of the dangers of oversimplified approaches, the improbability of anticipating every possible operating condition, the inevitability of software errors, the interactions of systems and their contexts, and other issues related to the complexity of their professionÂ—and thus be confident in taking on responsibilities for the work that they do.
 
 3.6 Use care when modifying or retiring systems.
 
@@ -110,7 +110,7 @@ Even the simplest computer systems have the potential to impact all aspects of s
 
 4. COMPLIANCE WITH THE CODE.
 
-A computing professional should...
+A computing professional should
 
 4.1 Uphold, promote, and respect the principles of the Code.
 
@@ -122,18 +122,18 @@ Each ACM member should encourage and support adherence by all computing professi
 
 Software engineers shall commit themselves to making the analysis, specification, design, development, testing and maintenance of software a beneficial and respected profession. In accordance with their commitment to the health, safety and welfare of the public, software engineers shall adhere to the following Eight Principles
 
-1. PUBLIC – Software engineers shall act consistently with the public interest.
+1. PUBLIC Â– Software engineers shall act consistently with the public interest.
 
-2. CLIENT AND EMPLOYER – Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.
+2. CLIENT AND EMPLOYER Â– Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.
 
-3. PRODUCT – Software engineers shall ensure that their products and related modifications meet the highest professional standards possible.
+3. PRODUCT Â– Software engineers shall ensure that their products and related modifications meet the highest professional standards possible.
 
-4. JUDGMENT – Software engineers shall maintain integrity and independence in their professional judgment.
+4. JUDGMENT Â– Software engineers shall maintain integrity and independence in their professional judgment.
 
-5. MANAGEMENT – Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance.
+5. MANAGEMENT Â– Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance.
 
-6. PROFESSION – Software engineers shall advance the integrity and reputation of the profession consistent with the public interest.
+6. PROFESSION Â– Software engineers shall advance the integrity and reputation of the profession consistent with the public interest.
 
-7. COLLEAGUES – Software engineers shall be fair to and supportive of their colleagues.
+7. COLLEAGUES Â– Software engineers shall be fair to and supportive of their colleagues.
 
-8. SELF – Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
+8. SELF Â– Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
